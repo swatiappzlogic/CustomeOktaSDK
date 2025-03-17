@@ -1,0 +1,11 @@
+framework module OktaWithWink {
+  umbrella header "OktaWithWink-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module OktaWithWink.Swift {
+  header "OktaWithWink-Swift.h"
+  requires objc
+}

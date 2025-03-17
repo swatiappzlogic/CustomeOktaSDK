@@ -1,0 +1,2232 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "OktaWithWink",
+    "printedName": "OktaWithWink",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "OktaWithWink",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "OktaOidc",
+        "printedName": "OktaOidc",
+        "declKind": "Import",
+        "moduleName": "OktaWithWink"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "OktaWithWink",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "OktaWithWink"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "OktaWithWink",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "ARKit",
+        "printedName": "ARKit",
+        "declKind": "Import",
+        "moduleName": "OktaWithWink"
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "OktaWithWink"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "OktaWithWink",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Vision",
+        "printedName": "Vision",
+        "declKind": "Import",
+        "moduleName": "OktaWithWink"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FaceCropResult",
+        "printedName": "FaceCropResult",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "success",
+            "printedName": "success",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(OktaWithWink.FaceCropResult.Type) -> (CoreGraphics.CGImage) -> OktaWithWink.FaceCropResult",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(CoreGraphics.CGImage) -> OktaWithWink.FaceCropResult",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FaceCropResult",
+                        "printedName": "OktaWithWink.FaceCropResult",
+                        "usr": "s:12OktaWithWink14FaceCropResultO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CGImage",
+                        "printedName": "CoreGraphics.CGImage",
+                        "usr": "c:@T@CGImageRef"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "OktaWithWink.FaceCropResult.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FaceCropResult",
+                        "printedName": "OktaWithWink.FaceCropResult",
+                        "usr": "s:12OktaWithWink14FaceCropResultO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12OktaWithWink14FaceCropResultO7successyACSo10CGImageRefacACmF",
+            "mangledName": "$s12OktaWithWink14FaceCropResultO7successyACSo10CGImageRefacACmF",
+            "moduleName": "OktaWithWink"
+          },
+          {
+            "kind": "Var",
+            "name": "notFound",
+            "printedName": "notFound",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(OktaWithWink.FaceCropResult.Type) -> OktaWithWink.FaceCropResult",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FaceCropResult",
+                    "printedName": "OktaWithWink.FaceCropResult",
+                    "usr": "s:12OktaWithWink14FaceCropResultO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "OktaWithWink.FaceCropResult.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FaceCropResult",
+                        "printedName": "OktaWithWink.FaceCropResult",
+                        "usr": "s:12OktaWithWink14FaceCropResultO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12OktaWithWink14FaceCropResultO8notFoundyA2CmF",
+            "mangledName": "$s12OktaWithWink14FaceCropResultO8notFoundyA2CmF",
+            "moduleName": "OktaWithWink"
+          },
+          {
+            "kind": "Var",
+            "name": "failure",
+            "printedName": "failure",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(OktaWithWink.FaceCropResult.Type) -> (any Swift.Error) -> OktaWithWink.FaceCropResult",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(any Swift.Error) -> OktaWithWink.FaceCropResult",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FaceCropResult",
+                        "printedName": "OktaWithWink.FaceCropResult",
+                        "usr": "s:12OktaWithWink14FaceCropResultO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "OktaWithWink.FaceCropResult.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FaceCropResult",
+                        "printedName": "OktaWithWink.FaceCropResult",
+                        "usr": "s:12OktaWithWink14FaceCropResultO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12OktaWithWink14FaceCropResultO7failureyACs5Error_pcACmF",
+            "mangledName": "$s12OktaWithWink14FaceCropResultO7failureyACs5Error_pcACmF",
+            "moduleName": "OktaWithWink"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:12OktaWithWink14FaceCropResultO",
+        "mangledName": "$s12OktaWithWink14FaceCropResultO",
+        "moduleName": "OktaWithWink",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "OktaWithWink",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "OktaWithWink",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "ADCountryPicker",
+        "printedName": "ADCountryPicker",
+        "declKind": "Import",
+        "moduleName": "OktaWithWink"
+      },
+      {
+        "kind": "Import",
+        "name": "DatePicker",
+        "printedName": "DatePicker",
+        "declKind": "Import",
+        "moduleName": "OktaWithWink"
+      },
+      {
+        "kind": "Import",
+        "name": "FlagPhoneNumber",
+        "printedName": "FlagPhoneNumber",
+        "declKind": "Import",
+        "moduleName": "OktaWithWink"
+      },
+      {
+        "kind": "Import",
+        "name": "PhoneNumberKit",
+        "printedName": "PhoneNumberKit",
+        "declKind": "Import",
+        "moduleName": "OktaWithWink"
+      },
+      {
+        "kind": "Import",
+        "name": "Alamofire",
+        "printedName": "Alamofire",
+        "declKind": "Import",
+        "moduleName": "OktaWithWink"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "OktaWithWink",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Alamofire",
+        "printedName": "Alamofire",
+        "declKind": "Import",
+        "moduleName": "OktaWithWink"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "OktaWithWink",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "OktaWithWink",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "OktaWithWink",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Alamofire",
+        "printedName": "Alamofire",
+        "declKind": "Import",
+        "moduleName": "OktaWithWink"
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "OktaWithWink"
+      },
+      {
+        "kind": "Import",
+        "name": "Vision",
+        "printedName": "Vision",
+        "declKind": "Import",
+        "moduleName": "OktaWithWink"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "OktaWithWink",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVKit",
+        "printedName": "AVKit",
+        "declKind": "Import",
+        "moduleName": "OktaWithWink"
+      },
+      {
+        "kind": "Import",
+        "name": "Vision",
+        "printedName": "Vision",
+        "declKind": "Import",
+        "moduleName": "OktaWithWink"
+      },
+      {
+        "kind": "Import",
+        "name": "ImageIO",
+        "printedName": "ImageIO",
+        "declKind": "Import",
+        "moduleName": "OktaWithWink"
+      },
+      {
+        "kind": "Import",
+        "name": "MobileCoreServices",
+        "printedName": "MobileCoreServices",
+        "declKind": "Import",
+        "moduleName": "OktaWithWink"
+      },
+      {
+        "kind": "Import",
+        "name": "Alamofire",
+        "printedName": "Alamofire",
+        "declKind": "Import",
+        "moduleName": "OktaWithWink"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreMedia",
+        "printedName": "CoreMedia",
+        "declKind": "Import",
+        "moduleName": "OktaWithWink"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreImage",
+        "printedName": "CoreImage",
+        "declKind": "Import",
+        "moduleName": "OktaWithWink"
+      },
+      {
+        "kind": "Import",
+        "name": "OktaOidc",
+        "printedName": "OktaOidc",
+        "declKind": "Import",
+        "moduleName": "OktaWithWink"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "OktaWithWink",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Alamofire",
+        "printedName": "Alamofire",
+        "declKind": "Import",
+        "moduleName": "OktaWithWink"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "OktaWithWink",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "OktaWithWink",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "OktaWithWink",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Security",
+        "printedName": "Security",
+        "declKind": "Import",
+        "moduleName": "OktaWithWink"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "OktaWithWink",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NVActivityIndicatorView",
+        "printedName": "NVActivityIndicatorView",
+        "declKind": "Import",
+        "moduleName": "OktaWithWink"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "OktaWithWink",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "OktaWithWink",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "OktaOidc",
+        "printedName": "OktaOidc",
+        "declKind": "Import",
+        "moduleName": "OktaWithWink"
+      },
+      {
+        "kind": "Import",
+        "name": "Alamofire",
+        "printedName": "Alamofire",
+        "declKind": "Import",
+        "moduleName": "OktaWithWink"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "OktaWithWink",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Alamofire",
+        "printedName": "Alamofire",
+        "declKind": "Import",
+        "moduleName": "OktaWithWink"
+      },
+      {
+        "kind": "Import",
+        "name": "Alamofire",
+        "printedName": "Alamofire",
+        "declKind": "Import",
+        "moduleName": "OktaWithWink",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "OktaWithWink",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "OktaWithWink"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "OktaWithWink"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "OktaWithWink",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "OktaWithWink",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "OktaWithWink",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "OktaWithWink"
+      },
+      {
+        "kind": "Import",
+        "name": "AVKit",
+        "printedName": "AVKit",
+        "declKind": "Import",
+        "moduleName": "OktaWithWink"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "OktaWithWink",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "OktaWithWink",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "OktaWithWink"
+      },
+      {
+        "kind": "Import",
+        "name": "OktaOidc",
+        "printedName": "OktaOidc",
+        "declKind": "Import",
+        "moduleName": "OktaWithWink"
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "OktaWithWink"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "OktaWithWink",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "OktaWithWink"
+      },
+      {
+        "kind": "Import",
+        "name": "FlagPhoneNumber",
+        "printedName": "FlagPhoneNumber",
+        "declKind": "Import",
+        "moduleName": "OktaWithWink"
+      },
+      {
+        "kind": "Import",
+        "name": "OktaOidc",
+        "printedName": "OktaOidc",
+        "declKind": "Import",
+        "moduleName": "OktaWithWink"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "OktaWithWink",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SDKManager",
+        "printedName": "SDKManager",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SDKManager",
+                "printedName": "OktaWithWink.SDKManager",
+                "usr": "s:12OktaWithWink10SDKManagerC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12OktaWithWink10SDKManagerC6sharedACvpZ",
+            "mangledName": "$s12OktaWithWink10SDKManagerC6sharedACvpZ",
+            "moduleName": "OktaWithWink",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SDKManager",
+                    "printedName": "OktaWithWink.SDKManager",
+                    "usr": "s:12OktaWithWink10SDKManagerC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12OktaWithWink10SDKManagerC6sharedACvgZ",
+                "mangledName": "$s12OktaWithWink10SDKManagerC6sharedACvgZ",
+                "moduleName": "OktaWithWink",
+                "static": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "addSDKViewController",
+            "printedName": "addSDKViewController(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12OktaWithWink10SDKManagerC20addSDKViewController2toySo06UIViewG0C_tF",
+            "mangledName": "$s12OktaWithWink10SDKManagerC20addSDKViewController2toySo06UIViewG0C_tF",
+            "moduleName": "OktaWithWink",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:12OktaWithWink10SDKManagerC",
+        "mangledName": "$s12OktaWithWink10SDKManagerC",
+        "moduleName": "OktaWithWink",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "OktaWithWink",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "OktaWithWink"
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "OktaWithWink"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "OktaWithWink",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "OktaWithWink",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "OktaWithWink"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "OktaWithWink"
+      },
+      {
+        "kind": "Import",
+        "name": "OktaOidc",
+        "printedName": "OktaOidc",
+        "declKind": "Import",
+        "moduleName": "OktaWithWink"
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "OktaWithWink"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ViewController",
+        "printedName": "ViewController",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "viewDidLoad",
+            "printedName": "viewDidLoad()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@OktaWithWink@objc(cs)ViewController(im)viewDidLoad",
+            "mangledName": "$s12OktaWithWink14ViewControllerC11viewDidLoadyyF",
+            "moduleName": "OktaWithWink",
+            "overriding": true,
+            "objc_name": "viewDidLoad",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "viewWillDisappear",
+            "printedName": "viewWillDisappear(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@OktaWithWink@objc(cs)ViewController(im)viewWillDisappear:",
+            "mangledName": "$s12OktaWithWink14ViewControllerC17viewWillDisappearyySbF",
+            "moduleName": "OktaWithWink",
+            "overriding": true,
+            "objc_name": "viewWillDisappear:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "viewWillAppear",
+            "printedName": "viewWillAppear(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@OktaWithWink@objc(cs)ViewController(im)viewWillAppear:",
+            "mangledName": "$s12OktaWithWink14ViewControllerC14viewWillAppearyySbF",
+            "moduleName": "OktaWithWink",
+            "overriding": true,
+            "objc_name": "viewWillAppear:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(nibName:bundle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ViewController",
+                "printedName": "OktaWithWink.ViewController",
+                "usr": "c:@M@OktaWithWink@objc(cs)ViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Bundle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@OktaWithWink@objc(cs)ViewController(im)initWithNibName:bundle:",
+            "mangledName": "$s12OktaWithWink14ViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
+            "moduleName": "OktaWithWink",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithNibName:bundle:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "OktaWithWink.ViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ViewController",
+                    "printedName": "OktaWithWink.ViewController",
+                    "usr": "c:@M@OktaWithWink@objc(cs)ViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@OktaWithWink@objc(cs)ViewController(im)initWithCoder:",
+            "mangledName": "$s12OktaWithWink14ViewControllerC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "OktaWithWink",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@OktaWithWink@objc(cs)ViewController",
+        "mangledName": "$s12OktaWithWink14ViewControllerC",
+        "moduleName": "OktaWithWink",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIViewController",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIViewController",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "OktaWithWink",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "OktaWithWink"
+      },
+      {
+        "kind": "Import",
+        "name": "Network",
+        "printedName": "Network",
+        "declKind": "Import",
+        "moduleName": "OktaWithWink"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "OktaWithWink",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "OktaWithWink"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "OktaWithWink",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Alamofire",
+        "printedName": "Alamofire",
+        "declKind": "Import",
+        "moduleName": "OktaWithWink"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "OktaWithWink",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "OktaOidc",
+        "printedName": "OktaOidc",
+        "declKind": "Import",
+        "moduleName": "OktaWithWink"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CGImage",
+        "printedName": "CGImage",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "faceCrop",
+            "printedName": "faceCrop(margin:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "hasDefaultArg": true,
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(OktaWithWink.FaceCropResult) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FaceCropResult",
+                    "printedName": "OktaWithWink.FaceCropResult",
+                    "usr": "s:12OktaWithWink14FaceCropResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So10CGImageRefa12OktaWithWinkE8faceCrop6margin10completiony14CoreFoundation7CGFloatV_yAC04FaceG6ResultOctF",
+            "mangledName": "$sSo10CGImageRefa12OktaWithWinkE8faceCrop6margin10completiony12CoreGraphics7CGFloatV_yAC04FaceG6ResultOctF",
+            "moduleName": "OktaWithWink",
+            "intro_iOS": "11.0",
+            "declAttributes": [
+              "Available"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@T@CGImageRef",
+        "moduleName": "CoreGraphics",
+        "declAttributes": [
+          "SynthesizedProtocol",
+          "ObjC",
+          "Dynamic"
+        ],
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_CFObject",
+            "printedName": "_CFObject",
+            "usr": "s:14CoreFoundation9_CFObjectP",
+            "mangledName": "$s14CoreFoundation9_CFObjectP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/OktaWithWink\/OktaWithWink\/OktaWithWink\/Classes\/Auth\/AuthService.swift",
+      "kind": "StringLiteral",
+      "offset": 1626,
+      "length": 9,
+      "value": "\"user_id\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/OktaWithWink\/OktaWithWink\/OktaWithWink\/Classes\/Utilities\/CameraViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 662,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/OktaWithWink\/OktaWithWink\/OktaWithWink\/Classes\/Utilities\/CameraViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 752,
+      "length": 4,
+      "value": "1280"
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/OktaWithWink\/OktaWithWink\/OktaWithWink\/Classes\/Utilities\/CameraViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 766,
+      "length": 4,
+      "value": "1919"
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/OktaWithWink\/OktaWithWink\/OktaWithWink\/Classes\/Utilities\/CameraViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 802,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/OktaWithWink\/OktaWithWink\/OktaWithWink\/Classes\/Utilities\/CameraViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 887,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/OktaWithWink\/OktaWithWink\/OktaWithWink\/Classes\/Helper\/CGImage+FaceCrop.swift",
+      "kind": "IntegerLiteral",
+      "offset": 254,
+      "length": 3,
+      "value": "200"
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/OktaWithWink\/OktaWithWink\/OktaWithWink\/Classes\/Helper\/Constants\/Constant.swift",
+      "kind": "StringLiteral",
+      "offset": 184,
+      "length": 6,
+      "value": "\"Main\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/OktaWithWink\/OktaWithWink\/OktaWithWink\/Classes\/Helper\/Constants\/Constant.swift",
+      "kind": "StringLiteral",
+      "offset": 255,
+      "length": 7,
+      "value": "\"PopUp\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/OktaWithWink\/OktaWithWink\/OktaWithWink\/Classes\/Helper\/Constants\/Constant.swift",
+      "kind": "StringLiteral",
+      "offset": 331,
+      "length": 6,
+      "value": "\"live\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/OktaWithWink\/OktaWithWink\/OktaWithWink\/Classes\/Helper\/Constants\/Constant.swift",
+      "kind": "StringLiteral",
+      "offset": 361,
+      "length": 5,
+      "value": "\"dev\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/OktaWithWink\/OktaWithWink\/OktaWithWink\/Classes\/Helper\/Constants\/Constant.swift",
+      "kind": "StringLiteral",
+      "offset": 386,
+      "length": 9,
+      "value": "\"testing\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/OktaWithWink\/OktaWithWink\/OktaWithWink\/Classes\/Helper\/Constants\/Constant.swift",
+      "kind": "IntegerLiteral",
+      "offset": 449,
+      "length": 3,
+      "value": "360"
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/OktaWithWink\/OktaWithWink\/OktaWithWink\/Classes\/Helper\/Constants\/Constant.swift",
+      "kind": "IntegerLiteral",
+      "offset": 486,
+      "length": 3,
+      "value": "500"
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/OktaWithWink\/OktaWithWink\/OktaWithWink\/Classes\/Helper\/Constants\/Constant.swift",
+      "kind": "IntegerLiteral",
+      "offset": 552,
+      "length": 2,
+      "value": "50"
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/OktaWithWink\/OktaWithWink\/OktaWithWink\/Classes\/Helper\/Constants\/Constant.swift",
+      "kind": "IntegerLiteral",
+      "offset": 593,
+      "length": 3,
+      "value": "150"
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/OktaWithWink\/OktaWithWink\/OktaWithWink\/Classes\/Helper\/Constants\/Constant.swift",
+      "kind": "StringLiteral",
+      "offset": 662,
+      "length": 15,
+      "value": "\"OpenSans-Bold\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/OktaWithWink\/OktaWithWink\/OktaWithWink\/Classes\/Helper\/Constants\/Constant.swift",
+      "kind": "StringLiteral",
+      "offset": 709,
+      "length": 16,
+      "value": "\"OpenSans-Light\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/OktaWithWink\/OktaWithWink\/OktaWithWink\/Classes\/Helper\/Constants\/Constant.swift",
+      "kind": "StringLiteral",
+      "offset": 758,
+      "length": 17,
+      "value": "\"OpenSans-Medium\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/OktaWithWink\/OktaWithWink\/OktaWithWink\/Classes\/Helper\/Constants\/Constant.swift",
+      "kind": "StringLiteral",
+      "offset": 809,
+      "length": 18,
+      "value": "\"OpenSans-Regular\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/OktaWithWink\/OktaWithWink\/OktaWithWink\/Classes\/Helper\/Constants\/Constant.swift",
+      "kind": "StringLiteral",
+      "offset": 862,
+      "length": 19,
+      "value": "\"OpenSans-SemiBold\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/OktaWithWink\/OktaWithWink\/OktaWithWink\/Classes\/Helper\/Constants\/Constant.swift",
+      "kind": "IntegerLiteral",
+      "offset": 950,
+      "length": 3,
+      "value": "114"
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/OktaWithWink\/OktaWithWink\/OktaWithWink\/Classes\/Helper\/Constants\/Constant.swift",
+      "kind": "IntegerLiteral",
+      "offset": 962,
+      "length": 3,
+      "value": "112"
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/OktaWithWink\/OktaWithWink\/OktaWithWink\/Classes\/Helper\/Constants\/Constant.swift",
+      "kind": "IntegerLiteral",
+      "offset": 973,
+      "length": 3,
+      "value": "197"
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/OktaWithWink\/OktaWithWink\/OktaWithWink\/Classes\/Helper\/Constants\/Constant.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1026,
+      "length": 3,
+      "value": "232"
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/OktaWithWink\/OktaWithWink\/OktaWithWink\/Classes\/Helper\/Constants\/Constant.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1038,
+      "length": 3,
+      "value": "231"
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/OktaWithWink\/OktaWithWink\/OktaWithWink\/Classes\/Helper\/Constants\/Constant.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1049,
+      "length": 3,
+      "value": "247"
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/OktaWithWink\/OktaWithWink\/OktaWithWink\/Classes\/Helper\/Constants\/Constant.swift",
+      "kind": "StringLiteral",
+      "offset": 1103,
+      "length": 31,
+      "value": "\"https:\/\/dev-api.winklogin.com\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/OktaWithWink\/OktaWithWink\/OktaWithWink\/Classes\/Helper\/Constants\/Constant.swift",
+      "kind": "StringLiteral",
+      "offset": 1168,
+      "length": 83,
+      "value": "\"https:\/\/dev-api.winklogin.com\/api\/OpenSession\/open-session-id?ClientId=winkwallet\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/OktaWithWink\/OktaWithWink\/OktaWithWink\/Classes\/Helper\/Constants\/Constant.swift",
+      "kind": "StringLiteral",
+      "offset": 1283,
+      "length": 24,
+      "value": "\"\/api\/Login\/v1.0\/videos\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/OktaWithWink\/OktaWithWink\/OktaWithWink\/Classes\/Helper\/Constants\/Constant.swift",
+      "kind": "StringLiteral",
+      "offset": 1335,
+      "length": 96,
+      "value": "\"wss:\/\/dev-api.winklogin.com\/ws_winkLoginEnrollment\/SkLgTtMllh\/true\/true\/winkwallet\/?SessionId=\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/OktaWithWink\/OktaWithWink\/OktaWithWink\/Classes\/Helper\/Constants\/Constant.swift",
+      "kind": "StringLiteral",
+      "offset": 1463,
+      "length": 23,
+      "value": "\"\/api\/Login\/v1.0\/users\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/OktaWithWink\/OktaWithWink\/OktaWithWink\/Classes\/Helper\/Constants\/Constant.swift",
+      "kind": "StringLiteral",
+      "offset": 1518,
+      "length": 29,
+      "value": "\"\/api\/User\/EmailVerification\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/OktaWithWink\/OktaWithWink\/OktaWithWink\/Classes\/Helper\/Constants\/Constant.swift",
+      "kind": "StringLiteral",
+      "offset": 1581,
+      "length": 31,
+      "value": "\"\/api\/User\/User\/ContactNoCheck\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/OktaWithWink\/OktaWithWink\/OktaWithWink\/Classes\/Helper\/Constants\/Constant.swift",
+      "kind": "StringLiteral",
+      "offset": 1688,
+      "length": 26,
+      "value": "\"failure_existing_account\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/OktaWithWink\/OktaWithWink\/OktaWithWink\/Classes\/Helper\/Constants\/Constant.swift",
+      "kind": "StringLiteral",
+      "offset": 1745,
+      "length": 15,
+      "value": "\"success_login\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/OktaWithWink\/OktaWithWink\/OktaWithWink\/Classes\/Helper\/Constants\/Constant.swift",
+      "kind": "StringLiteral",
+      "offset": 1796,
+      "length": 20,
+      "value": "\"success_enrollment\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/OktaWithWink\/OktaWithWink\/OktaWithWink\/Classes\/Helper\/Constants\/Constant.swift",
+      "kind": "StringLiteral",
+      "offset": 1846,
+      "length": 22,
+      "value": "\"failure_not_enrolled\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/OktaWithWink\/OktaWithWink\/OktaWithWink\/Classes\/Helper\/Constants\/Constant.swift",
+      "kind": "StringLiteral",
+      "offset": 1898,
+      "length": 22,
+      "value": "\"failure_poor_quality\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/OktaWithWink\/OktaWithWink\/OktaWithWink\/Classes\/Helper\/Constants\/Constant.swift",
+      "kind": "StringLiteral",
+      "offset": 1954,
+      "length": 19,
+      "value": "\"failure_try_again\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/OktaWithWink\/OktaWithWink\/OktaWithWink\/Classes\/Helper\/Constants\/Constant.swift",
+      "kind": "StringLiteral",
+      "offset": 2031,
+      "length": 5,
+      "value": "\"ces\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/OktaWithWink\/OktaWithWink\/OktaWithWink\/Classes\/Helper\/Constants\/Constant.swift",
+      "kind": "StringLiteral",
+      "offset": 2065,
+      "length": 7,
+      "value": "\"99999\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/OktaWithWink\/OktaWithWink\/OktaWithWink\/Classes\/Helper\/Constants\/Constant.swift",
+      "kind": "StringLiteral",
+      "offset": 2110,
+      "length": 7,
+      "value": "\"88888\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/OktaWithWink\/OktaWithWink\/OktaWithWink\/Classes\/Helper\/Constants\/Constant.swift",
+      "kind": "StringLiteral",
+      "offset": 2148,
+      "length": 22,
+      "value": "\"KX0rY0t45JsPgTSOkl3o\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/OktaWithWink\/OktaWithWink\/OktaWithWink\/Classes\/Helper\/Constants\/Constant.swift",
+      "kind": "StringLiteral",
+      "offset": 2222,
+      "length": 47,
+      "value": "\"com.intelli.Ritesh.com.SwiftUIDemo:\/\/callback\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/OktaWithWink\/OktaWithWink\/OktaWithWink\/Classes\/Helper\/Constants\/Constant.swift",
+      "kind": "StringLiteral",
+      "offset": 2296,
+      "length": 34,
+      "value": "\"L9cmSMt5gmXdq0tjujkz9PI6XbSmidmu\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/OktaWithWink\/OktaWithWink\/OktaWithWink\/Classes\/Helper\/Constants\/Constant.swift",
+      "kind": "StringLiteral",
+      "offset": 2361,
+      "length": 66,
+      "value": "\"XRBKZAjkhHrPdDQBoidP1BMDelCS5S3OAt97V19QfEA4zTpr-eeK5QdMHfVhDBcp\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/OktaWithWink\/OktaWithWink\/OktaWithWink\/Classes\/Helper\/Constants\/Constant.swift",
+      "kind": "StringLiteral",
+      "offset": 2454,
+      "length": 51,
+      "value": "\"https:\/\/dev-losjplaebuyov0c7.us.auth0.com\/api\/v2\/\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/OktaWithWink\/OktaWithWink\/OktaWithWink\/Classes\/Helper\/Constants\/Constant.swift",
+      "kind": "StringLiteral",
+      "offset": 2531,
+      "length": 44,
+      "value": "\"https:\/\/dev-losjplaebuyov0c7.us.auth0.com\/\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/OktaWithWink\/OktaWithWink\/OktaWithWink\/Classes\/Helper\/Constants\/Constant.swift",
+      "kind": "StringLiteral",
+      "offset": 2633,
+      "length": 6,
+      "value": "\"1234\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/OktaWithWink\/OktaWithWink\/OktaWithWink\/Classes\/Helper\/Constants\/Constant.swift",
+      "kind": "StringLiteral",
+      "offset": 2666,
+      "length": 15,
+      "value": "\"IPQualityDude\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/OktaWithWink\/OktaWithWink\/OktaWithWink\/Classes\/Helper\/Constants\/Constant.swift",
+      "kind": "StringLiteral",
+      "offset": 2706,
+      "length": 66,
+      "value": "\"I8VtDr8daoddxc30KwVewtcCNqvm4bJ3h5YyWAd40jT7t5R7uduO6etwl0muyaDm\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/OktaWithWink\/OktaWithWink\/OktaWithWink\/Classes\/Helper\/Constants\/Constant.swift",
+      "kind": "StringLiteral",
+      "offset": 2832,
+      "length": 16,
+      "value": "\"winkuserimages\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/OktaWithWink\/OktaWithWink\/OktaWithWink\/Classes\/Helper\/Constants\/Constant.swift",
+      "kind": "StringLiteral",
+      "offset": 2880,
+      "length": 15,
+      "value": "\"devusersimage\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/OktaWithWink\/OktaWithWink\/OktaWithWink\/Classes\/Helper\/Constants\/Constant.swift",
+      "kind": "StringLiteral",
+      "offset": 2922,
+      "length": 136,
+      "value": "\"sp=rac&st=2024-04-29T20:12:40Z&se=2025-12-31T04:12:40Z&spr=https&sv=2022-11-02&sr=c&sig=2zJQG7Ki8GT1PGfFNaPHPsPi4PbP6XR8HfILDe6WJoI%3D\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/OktaWithWink\/OktaWithWink\/OktaWithWink\/Classes\/Helper\/Constants\/Constant.swift",
+      "kind": "StringLiteral",
+      "offset": 3113,
+      "length": 13,
+      "value": "\"recognition\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/OktaWithWink\/OktaWithWink\/OktaWithWink\/Classes\/Helper\/Constants\/Constant.swift",
+      "kind": "StringLiteral",
+      "offset": 3156,
+      "length": 12,
+      "value": "\"enrollment\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/OktaWithWink\/OktaWithWink\/OktaWithWink\/Classes\/Helper\/Constants\/Constant.swift",
+      "kind": "FloatLiteral",
+      "offset": 3266,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/OktaWithWink\/OktaWithWink\/OktaWithWink\/Classes\/OnBoard\/View\/ViewController\/EnrollmentVC.swift",
+      "kind": "StringLiteral",
+      "offset": 317,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/OktaWithWink\/OktaWithWink\/OktaWithWink\/Classes\/OnBoard\/View\/ViewController\/EnrollmentVC.swift",
+      "kind": "StringLiteral",
+      "offset": 953,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/OktaWithWink\/OktaWithWink\/OktaWithWink\/Classes\/OnBoard\/View\/ViewController\/EnrollmentVC.swift",
+      "kind": "StringLiteral",
+      "offset": 992,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/OktaWithWink\/OktaWithWink\/OktaWithWink\/Classes\/OnBoard\/View\/ViewController\/EnrollmentVC.swift",
+      "kind": "StringLiteral",
+      "offset": 1025,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/OktaWithWink\/OktaWithWink\/OktaWithWink\/Classes\/OnBoard\/View\/ViewController\/EnrollmentVC.swift",
+      "kind": "StringLiteral",
+      "offset": 1063,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/OktaWithWink\/OktaWithWink\/OktaWithWink\/Classes\/OnBoard\/View\/ViewController\/EnrollmentVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1087,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/OktaWithWink\/OktaWithWink\/OktaWithWink\/Classes\/OnBoard\/View\/ViewController\/EnrollmentVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1117,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/OktaWithWink\/OktaWithWink\/OktaWithWink\/Classes\/OnBoard\/View\/ViewController\/EnrollmentVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9663,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/OktaWithWink\/OktaWithWink\/OktaWithWink\/Classes\/FaceDetection\/Model\/FaceDetectionModel.swift",
+      "kind": "StringLiteral",
+      "offset": 889,
+      "length": 23,
+      "value": "\"videoProcessingResult\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/OktaWithWink\/OktaWithWink\/OktaWithWink\/Classes\/FaceDetection\/View\/ViewController\/FaceDetectionProcessingVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 461,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/OktaWithWink\/OktaWithWink\/OktaWithWink\/Classes\/FaceDetection\/View\/ViewController\/FaceDetectionProcessingVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 490,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/OktaWithWink\/OktaWithWink\/OktaWithWink\/Classes\/FaceDetection\/View\/ViewController\/FaceDetectionProcessingVC.swift",
+      "kind": "StringLiteral",
+      "offset": 523,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/OktaWithWink\/OktaWithWink\/OktaWithWink\/Classes\/FaceDetection\/View\/ViewController\/FaceDetectionVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 349,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/OktaWithWink\/OktaWithWink\/OktaWithWink\/Classes\/FaceDetection\/View\/ViewController\/FaceDetectionVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 380,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/OktaWithWink\/OktaWithWink\/OktaWithWink\/Classes\/FaceDetection\/View\/ViewController\/FaceDetectionVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 414,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/OktaWithWink\/OktaWithWink\/OktaWithWink\/Classes\/FaceDetection\/View\/ViewController\/FaceDetectionVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 442,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/OktaWithWink\/OktaWithWink\/OktaWithWink\/Classes\/FaceDetection\/View\/ViewController\/FaceDetectionVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 477,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/OktaWithWink\/OktaWithWink\/OktaWithWink\/Classes\/FaceDetection\/View\/ViewController\/FaceDetectionVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 504,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/OktaWithWink\/OktaWithWink\/OktaWithWink\/Classes\/FaceDetection\/View\/ViewController\/FaceDetectionVC.swift",
+      "kind": "Array",
+      "offset": 586,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/OktaWithWink\/OktaWithWink\/OktaWithWink\/Classes\/FaceDetection\/View\/ViewController\/FaceDetectionVC.swift",
+      "kind": "StringLiteral",
+      "offset": 658,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/OktaWithWink\/OktaWithWink\/OktaWithWink\/Classes\/FaceDetection\/View\/ViewController\/FaceDetectionVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1532,
+      "length": 3,
+      "value": "500"
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/OktaWithWink\/OktaWithWink\/OktaWithWink\/Classes\/FaceDetection\/View\/ViewController\/FaceDetectionVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1567,
+      "length": 3,
+      "value": "700"
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/OktaWithWink\/OktaWithWink\/OktaWithWink\/Classes\/Helper\/Managers\/KeyChainManager.swift",
+      "kind": "StringLiteral",
+      "offset": 436,
+      "length": 23,
+      "value": "\"group.Wink.native.SSO\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/OktaWithWink\/OktaWithWink\/OktaWithWink\/Classes\/OnBoard\/View\/ViewController\/LoginVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 423,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/OktaWithWink\/OktaWithWink\/OktaWithWink\/Classes\/OnBoard\/View\/ViewController\/LoginVC.swift",
+      "kind": "StringLiteral",
+      "offset": 446,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/OktaWithWink\/OktaWithWink\/OktaWithWink\/Classes\/OnBoard\/View\/ViewController\/LoginVC.swift",
+      "kind": "StringLiteral",
+      "offset": 472,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/OktaWithWink\/OktaWithWink\/OktaWithWink\/Classes\/OnBoard\/View\/ViewController\/LoginVC.swift",
+      "kind": "StringLiteral",
+      "offset": 494,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/OktaWithWink\/OktaWithWink\/OktaWithWink\/Classes\/OnBoard\/View\/ViewController\/LoginVC.swift",
+      "kind": "StringLiteral",
+      "offset": 593,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/OktaWithWink\/OktaWithWink\/OktaWithWink\/Classes\/Helper\/Managers\/NetworkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 8386,
+      "length": 12,
+      "value": "\"image\/jpeg\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/OktaWithWink\/OktaWithWink\/OktaWithWink\/Classes\/Okta\/OktaConfirmViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 264,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/OktaWithWink\/OktaWithWink\/OktaWithWink\/Classes\/Okta\/OktaConfirmViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 561,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/OktaWithWink\/OktaWithWink\/OktaWithWink\/Classes\/Okta\/OktaConnectView.swift",
+      "kind": "StringLiteral",
+      "offset": 303,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/OktaWithWink\/OktaWithWink\/OktaWithWink\/Classes\/Okta\/OktaConnectView.swift",
+      "kind": "StringLiteral",
+      "offset": 348,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/OktaWithWink\/OktaWithWink\/OktaWithWink\/Classes\/Okta\/OktaConnectView.swift",
+      "kind": "StringLiteral",
+      "offset": 400,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/OktaWithWink\/OktaWithWink\/OktaWithWink\/Classes\/Okta\/OktaConnectView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 452,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/OktaWithWink\/OktaWithWink\/OktaWithWink\/Classes\/Okta\/OktaConnectView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 514,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/OktaWithWink\/OktaWithWink\/OktaWithWink\/Classes\/Okta\/OktaConnectView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 561,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/OktaWithWink\/OktaWithWink\/OktaWithWink\/Classes\/Okta\/OktaConnectView.swift",
+      "kind": "StringLiteral",
+      "offset": 613,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/OktaWithWink\/OktaWithWink\/OktaWithWink\/Classes\/userprofile\/ProfileView.swift",
+      "kind": "StringLiteral",
+      "offset": 232,
+      "length": 5,
+      "value": "\"N\/A\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/OktaWithWink\/OktaWithWink\/OktaWithWink\/Classes\/userprofile\/ProfileView.swift",
+      "kind": "StringLiteral",
+      "offset": 286,
+      "length": 5,
+      "value": "\"N\/A\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/OktaWithWink\/OktaWithWink\/OktaWithWink\/Classes\/userprofile\/ProfileView.swift",
+      "kind": "StringLiteral",
+      "offset": 332,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/OktaWithWink\/OktaWithWink\/OktaWithWink\/Classes\/userprofile\/ProfileView.swift",
+      "kind": "StringLiteral",
+      "offset": 382,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/OktaWithWink\/OktaWithWink\/OktaWithWink\/Classes\/userprofile\/ProfileViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 516,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/OktaWithWink\/OktaWithWink\/OktaWithWink\/Classes\/userprofile\/ProfileViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 567,
+      "length": 5,
+      "value": "\"N\/A\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/OktaWithWink\/OktaWithWink\/OktaWithWink\/Classes\/userprofile\/ProfileViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 621,
+      "length": 5,
+      "value": "\"N\/A\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/OktaWithWink\/OktaWithWink\/OktaWithWink\/Classes\/userprofile\/ProfileViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 674,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/OktaWithWink\/OktaWithWink\/OktaWithWink\/Classes\/userprofile\/ProfileViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 759,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/OktaWithWink\/OktaWithWink\/OktaWithWink\/Classes\/userprofile\/ProfileViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 816,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/OktaWithWink\/OktaWithWink\/OktaWithWink\/Classes\/userprofile\/ProfileViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 250,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/OktaWithWink\/OktaWithWink\/OktaWithWink\/Classes\/OnBoard\/View\/ViewController\/TempViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 448,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/OktaWithWink\/OktaWithWink\/OktaWithWink\/Classes\/OnBoard\/View\/ViewController\/TempViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 522,
+      "length": 4,
+      "value": "1280"
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/OktaWithWink\/OktaWithWink\/OktaWithWink\/Classes\/OnBoard\/View\/ViewController\/TempViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 536,
+      "length": 4,
+      "value": "1919"
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/OktaWithWink\/OktaWithWink\/OktaWithWink\/Classes\/OnBoard\/View\/ViewController\/TempViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 564,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/OktaWithWink\/OktaWithWink\/OktaWithWink\/Classes\/OnBoard\/View\/ViewController\/TempViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7256,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/OktaWithWink\/OktaWithWink\/OktaWithWink\/Classes\/OnBoard\/View\/ViewController\/TempViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7284,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/OktaWithWink\/OktaWithWink\/OktaWithWink\/Classes\/Okta\/ViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 381,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/OktaWithWink\/OktaWithWink\/OktaWithWink\/Classes\/Okta\/ViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 403,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/OktaWithWink\/OktaWithWink\/OktaWithWink\/Classes\/Okta\/ViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 423,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/OktaWithWink\/OktaWithWink\/OktaWithWink\/Classes\/Okta\/ViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 447,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/OktaWithWink\/OktaWithWink\/OktaWithWink\/Classes\/Okta\/ViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 597,
+      "length": 13,
+      "value": "\"Invalid URL\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/OktaWithWink\/OktaWithWink\/OktaWithWink\/Classes\/Okta\/ViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 665,
+      "length": 15,
+      "value": "\"winkTag Saved\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/OktaWithWink\/OktaWithWink\/OktaWithWink\/Classes\/Okta\/ViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 735,
+      "length": 13,
+      "value": "\"confirmOkta\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/OktaWithWink\/OktaWithWink\/OktaWithWink\/Classes\/OnBoard\/View\/ViewController\/WelcomeVC.swift",
+      "kind": "StringLiteral",
+      "offset": 682,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/OktaWithWink\/OktaWithWink\/OktaWithWink\/Classes\/OnBoard\/View\/ViewController\/WelcomeVC.swift",
+      "kind": "StringLiteral",
+      "offset": 715,
+      "length": 2,
+      "value": "\"\""
+    }
+  ]
+}
