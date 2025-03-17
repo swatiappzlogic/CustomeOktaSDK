@@ -4,18 +4,18 @@
 import PackageDescription
 
 let package = Package(
-    name: "/OktaWithWink",
+    name: "CustomOktaSDK",
     platforms: [
         .iOS(.v16) // iOS version target
     ],
     products: [
         // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
-            name: "/OktaWithWink",
-            targets: ["CustomOktaSDK"]),
+            name: "CustomOktaSDK",
+            targets: ["CustomOktaSDKDemo"]),
     ],
     targets: [
         // The destination of the framework you will obfuscate the code
-        .binaryTarget(name: "CustomOktaSDK", path: "./Sources/OktaWithWink.xcframework")
+        .binaryTarget(name: "CustomOktaSDKDemo", path: "./Sources/OktaWithWink.xcframework")
     ]
 )
