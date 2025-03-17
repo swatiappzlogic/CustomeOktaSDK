@@ -12,10 +12,10 @@ let package = Package(
         // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
             name: "CustomOktaSDK",
-            targets: ["CustomOktaSDKDemo"]),
+            targets: ["OktaWithWink"]),
     ],
     targets: [
         // The destination of the framework you will obfuscate the code
-        .binaryTarget(name: "CustomOktaSDKDemo", path: "./Sources/OktaWithWink.xcframework")
+        .binaryTarget(name: "OktaWithWink", path: "./Sources/OktaWithWink.xcframework")
     ]
 )
